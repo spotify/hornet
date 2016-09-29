@@ -1,4 +1,4 @@
-# /usr/bin/env bash
+#!/usr/bin/env bash
 
 # Copyright 2016 Spotify AB.
 #
@@ -16,11 +16,13 @@
 # under the License.
 
 
-
+# Find the dir this script is in
 basedir=${0%/*}
 
+# Find the Hornet jar.
 HORNET_JAR=$(ls -1 $basedir/../target/scala-2.11/hornet-assembly-*.jar $basedir/hornet-assembly-*.jar 2>/dev/null | tail -n 1)
 
+# Seperate classpath from the other arguments
 while [[ $# > 0 ]]; do
   if [[ $1  == "-cp" ]]; then
     shift
@@ -30,6 +32,11 @@ while [[ $# > 0 ]]; do
   fi
   shift
 done
+
+# Build combined classpath
 CP=$HORNET_JAR:$CP
+
 echo CLASSPATH: "$CP"
+echo
+
 exec java -cp "$CP" 'com.spotify.hornet.main.Hornet' $ARGS
