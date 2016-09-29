@@ -47,7 +47,7 @@ EXAMPLES
 
 
 [1]: https://www.infoq.com/presentations/latency-pitfalls
-[2]: https://ghe.spotify.net/eyal/hornet/wiki/How-to-Use-in-My-Project
+[2]: https://github.com/spotify/hornet/wiki/How-to-Use-in-My-Project
 [3]: http://junit.org/junit4/
 
 HOW TO BUILD
