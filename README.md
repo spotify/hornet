@@ -1,4 +1,4 @@
-<img align=right src="https://github.com/spotify/hornet/raw/master/docs/hornet_small.png"></img>
+<img align="right" src="https://github.com/spotify/hornet/raw/master/docs/hornet_small.png"></img>
 
 HORNET
 =======
@@ -68,7 +68,13 @@ Check out the code from github.
     sbt release
 
 
-License
+LIMITATIONS
+==============
+
+Currently, Hornet only supports a single load driver.  Multi worker support is coming soon.
+
+
+LICENSE
 =========
 
 Copyright 2016 Spotify AB.
