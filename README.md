@@ -1,4 +1,4 @@
-<img align=right src="https://ghe.spotify.net/eyal/hornet/raw/master/docs/hornet_small.png"></img>
+<img align=right src="https://github.com/spotify/hornet/raw/master/docs/hornet_small.png"></img>
 
 HORNET
 =======
