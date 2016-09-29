@@ -43,12 +43,8 @@ EXAMPLES
 
 
 ### HTML Report
+[Interactive Report][4]
 <img src="https://github.com/spotify/hornet/raw/master/docs/hornet_report.png"></img>
-
-
-[1]: https://www.infoq.com/presentations/latency-pitfalls
-[2]: https://github.com/spotify/hornet/wiki/How-to-Use-in-My-Project
-[3]: http://junit.org/junit4/
 
 HOW TO BUILD
 ===============
@@ -78,3 +74,8 @@ License
 Copyright 2016 Spotify AB.
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
+
+[1]: https://www.infoq.com/presentations/latency-pitfalls
+[2]: https://github.com/spotify/hornet/wiki/How-to-Use-in-My-Project
+[3]: http://junit.org/junit4/
+[4]: https://github.com/spotify/hornet/raw/master/docs/hornet_report.html
