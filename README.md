@@ -43,7 +43,7 @@ EXAMPLES
 
 
 ### HTML Report
-<img src="https://ghe.spotify.net/eyal/hornet/raw/master/docs/hornet_report.png"></img>
+<img src="https://github.com/spotify/hornet/raw/master/docs/hornet_report.png"></img>
 
 
 [1]: https://www.infoq.com/presentations/latency-pitfalls
