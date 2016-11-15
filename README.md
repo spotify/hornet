@@ -74,6 +74,11 @@ LIMITATIONS
 Currently, Hornet only supports a single load driver.  Multi worker support is coming soon.
 
 
+CODE OF CONDUCT
+===============
+This project adheres to the [Open Code of Conduct][5]. By participating, you are expected to honor this code.
+
+
 LICENSE
 =========
 
@@ -85,3 +90,4 @@ Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/L
 [2]: https://github.com/spotify/hornet/wiki/How-to-Use-in-My-Project
 [3]: http://junit.org/junit4/
 [4]: https://github.com/spotify/hornet/raw/master/docs/hornet_report.html
+[5]: https://github.com/spotify/code-of-conduct/blob/master/code-of-conduct.md
